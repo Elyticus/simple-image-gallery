@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 97vh;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.image_gallery {
+  cursor: pointer;
+  width: 250px;
+  transition: all 0.2s ease-in-out;
+}
+
+.image_gallery:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 1.05;
+}
+
+.imageFullSize {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  z-index: 1;
+}
+
+.imageFullSize {
+  width: 400px;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+@media all and (max-width: 480px) {
+  .imageFullSize {
+    width: 350px;
+    height: auto;
+  }
+}
