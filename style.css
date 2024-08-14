@@ -33,11 +33,6 @@ body {
   z-index: 1;
 }
 
-.imageFullSize {
-  width: 400px;
-  height: auto;
-}
-
 .hidden {
   display: none;
 }
